@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto+Condensed:ital@1&family=Roboto:ital,wght@0,300;0,400;1,300&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; 
+}
+.nav-container {
+  width: 100%;
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: space-evenly;
+  position: static;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  z-index: 999;
+}
+.flip-logo {
+  width: 160px;
+  height: 40px;
+}
+.input_bar input {
+  width: 90%;
+  background-color: rgb(229, 229, 247);
+  height: 40px;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+}
+.input_bar {
+  height: 40px;
+  width: 710px;
+  border: 2px solid;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  background-color: rgb(229, 229, 247);
+}
+.input_bar span {
+  padding: 10px;
+}
+.Login,
+.Cart {
+  width: 110px;
+  height: 40px;
+}
+.Login span,
+.Cart span,
+.Sellor span {
+  padding-right: 5px;
+}
+.Sellor {
+  width: 170px;
+  height: 40px;
+}
+
+/* section one css */
+main {
+  background: rgb(230, 237, 237);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+
+.section {
+  margin: auto;
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 98%;
+  height: 126px;
+  background-color: #ffffff;
+  margin: auto;
+  position: relative;
+  z-index: 999;
+}
+.section div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* second section  */
+.second-section {
+  width: 100%;
+  height: 250px;
+  margin-top: 1%;
+}
+.second-section img {
+  width: 98%;
+  margin-left: 14px;
+}
+
+/* senction three  */
+.bank-img-container {
+  width: 100%;
+  height: 250px;
+  margin-top: 1%;
+}
+.bank-img-container img {
+  width: 98%;
+  margin-left: 14px;
+  padding-top: 0px;
+}
+
+/* section four  */
+
+.section-four{
+  height: 350px;
+  width: 98%;
+  margin-left: 14px;
+  background-color: #ffffff;
+}
+.section-four-div div {
+  height:250px ;
+  width: 200px;
+font-size: 16px;
+text-align: center;
+padding: 5px;
+border-radius: 5px;
+border: 2px solid rgb(181,179,179);
+}
+.section-four-div div img{
+  width: 70%;
+  height: 80%;
+}
+.section-four-heding{
+  height: 60px;
+  margin-left: 18px;
+  padding-top: 5px;
+  font-size: 30px;
+}
+.section-four-div{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* section five  */
+.section-five{
+  height: 264px;
+  width: 98%;
+  margin-left: 14px;
+  margin-top:17px;
+  background-color: #ffffff;
+}
+.section-five-div{
+  display: flex;
+  justify-content: space-around;
+}
+.section-five-div div img{
+  height: 264px; 
+}
+
+/* footer  */
+footer
+{
+  height: 264px;
+  width: 100%;
+  margin-top: 5px;
+  background-color: black;
+  color: #ffffff;
+}
+th{
+  padding: 20px;
+}
+td{
+  padding-left: 20px;
+}
